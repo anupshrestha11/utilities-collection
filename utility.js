@@ -64,3 +64,11 @@ const updateThrottle = throttle(() => {
   // implement the desired code
   console.log("update throtte");
 });
+
+
+
+
+// Deep copy / clone
+function deepCopy(val) {
+  return JSON.parse(JSON.stringify(val));
+}
